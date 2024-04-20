@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Professional Resume</h1>
+        <nav>
+            <ul>
+                <li><a href="#skills" onclick="highlightAndScroll('skills')">Skills</a></li>
+                <li><a href="#achievements" onclick="highlightAndScroll('achievements')">Achievements</a></li>
+                <li><a href="#trainings" onclick="highlightAndScroll('trainings')">Trainings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section class="hero">
+        <div class="overlay">
+            <h2>Welcome to My Resume</h2>
+            <a href="resume.pdf" class="btn">View Resume</a>
+        </div>
+    </section>
+    <aside class="centered">
+        <img src="assets/profile_pic.jpg" alt="Professional Photo">
+    </aside>
+    <section class="content">
+        <div class="section-label">
+            <h2>Skills, Achievements, and Trainings</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <div class="sub-section" id="skills">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="sub-section" id="achievements">
+                        <h3>Achievements</h3>
+                        <ul>
+                            <li>Certified Information Systems Security Professiona</li>
+                            <li>Cisco Certified Network Associate </li>
+                            <li>Project Management Professional </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="sub-section" id="trainings">
+                        <h3>Trainings</h3>
+                        <ul>
+                            <li>AWS Certified Solutions Architect</li>
+                            <li>Advanced Graphic Design Workshop</li>
+                            <li>Certified Ethical Hacker (CEH)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 My Resume</p>
+        <p>&copy; 09277427149</p>
+        <p>&copy; restyveronia@gmail.com</p>
+    </footer>
+    <script src="assets/nav.js"></script>
+</body>
+</html>
